@@ -3,15 +3,15 @@ class OsateCli < Formula
   desc "OSATE command-line interface for AADL workspaces"
   homepage "https://github.com/osate/aadl-tooling"
   license "LicenseRef-BSD-SEI"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/osate/aadl-tooling/releases/download/osate-cli-v0.2.0/osate-cli-0.2.0-macos-arm64.tar.gz"
-      sha256 "55e7dcb1a271416e0911bf8b35af524c7a1efda8831ea9cdaa5ef96f923c07b9"
+      url "https://github.com/osate/aadl-tooling/releases/download/osate-cli-v0.2.1/osate-cli-0.2.1-macos-arm64.tar.gz"
+      sha256 "1e2cef22d5b9a7eec5548ffd934f04c71bc5a9a9a2e73b463ed8dad16090d58f"
     else
-      url "https://github.com/osate/aadl-tooling/releases/download/osate-cli-v0.2.0/osate-cli-0.2.0-macos-x64.tar.gz"
-      sha256 "781039f58f272d1433949c7f6de66e0eb134a4530b746b5ef25bb7d524b84a02"
+      url "https://github.com/osate/aadl-tooling/releases/download/osate-cli-v0.2.1/osate-cli-0.2.1-macos-x64.tar.gz"
+      sha256 "10ec3da75610130de1d051b5106708b5f087c460f9a55505fb963fdfae21e0e7"
     end
   end
 
